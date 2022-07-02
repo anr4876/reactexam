@@ -1,28 +1,17 @@
 // import './App.css';
 import MyHeader from './MyHeader';
 import MyFooter from './MyFooter';
+import Counter from './Counter';
 
-const style = {
-  App : {
-    backgroundColor : "black",
-  },
-  h2: {
-    color: "red",
-  },
-  bold_text: {
-    color:"green",
-  } ,
-};
+
 
 
 function App() {
+  const number = 5;
   return (
-    <div style={style.App}>
+    <div>
       <MyHeader/>
-      <header className="App-header">
-        <h2 style={style.h2}>dd</h2>
-        <b style={style.bold_text}>React.js</b>
-      </header>
+     <Counter/>
       <MyFooter/>
     </div>
   );
