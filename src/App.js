@@ -7,7 +7,7 @@ import Counter from './Counter';
 
 
 function App() {
-  const number = 5;
+
   return (
     <div>
       <MyHeader/>
